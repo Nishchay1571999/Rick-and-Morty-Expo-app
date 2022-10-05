@@ -1,0 +1,66 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    // alignItems: 'center',
+    // justifyContent: 'center',
+  },
+  frontpage: {
+            backgroundColor:'skyblue',
+            paddingHorizontal: 16,
+  },
+  charectercontainer: {
+    width: "100%",
+    height:300,
+    borderRadius: 20,
+    marginVertical: 8,
+    paddingVertical: 24,
+    backgroundColor: "black",
+  },
+  charecterName: {
+    fontSize: 16,
+    fontWeight: "bold",
+    marginTop: 8,
+    color: "white",
+  },
+  profileImage: {
+    width: 100,
+    height: 100,
+    marginRight: 8,
+    borderRadius: 10,
+    marginLeft: 8,
+    marginTop: 24,
+  },
+  alive: {
+    height: 16,
+    width: 16,
+    backgroundColor: "green",
+    position: "absolute",
+    bottom: 0,
+    right: 4,
+    zIndex: 100,
+    borderRadius: 30,
+  },
+  dead: {
+    height: 16,
+    width: 16,
+    backgroundColor: "red",
+    position: "absolute",
+    bottom: 0,
+    right: 4,
+    zIndex: 100,
+    borderRadius: 30,
+  },
+  unknown: {
+    height: 16,
+    width: 16,
+    backgroundColor: "gray",
+    position: "absolute",
+    bottom: 2,
+    right: 4,
+    zIndex: 100,
+    borderRadius: 30,
+  },
+});
